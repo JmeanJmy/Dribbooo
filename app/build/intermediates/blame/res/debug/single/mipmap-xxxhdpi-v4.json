@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_launcher_round.png",
+        "source": "/Android/Dribbo/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_launcher.png",
+        "source": "/Android/Dribbo/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    }
+]

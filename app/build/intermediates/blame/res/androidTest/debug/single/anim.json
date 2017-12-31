@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/anim/design_snackbar_out.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/175b0ab2ba912f35a77ff02dd3b9cfea/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/c3c55e2101394bb64f7372433e1d6cdb/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/c3c55e2101394bb64f7372433e1d6cdb/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/anim/tooltip_exit.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/c3c55e2101394bb64f7372433e1d6cdb/res/anim/tooltip_exit.xml"
+    },
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/c3c55e2101394bb64f7372433e1d6cdb/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/c3c55e2101394bb64f7372433e1d6cdb/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/c3c55e2101394bb64f7372433e1d6cdb/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/anim/tooltip_enter.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/c3c55e2101394bb64f7372433e1d6cdb/res/anim/tooltip_enter.xml"
+    },
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/anim/abc_fade_out.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/c3c55e2101394bb64f7372433e1d6cdb/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/anim/design_snackbar_in.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/175b0ab2ba912f35a77ff02dd3b9cfea/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/c3c55e2101394bb64f7372433e1d6cdb/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/anim/abc_fade_in.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/c3c55e2101394bb64f7372433e1d6cdb/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/c3c55e2101394bb64f7372433e1d6cdb/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/c3c55e2101394bb64f7372433e1d6cdb/res/anim/abc_slide_out_top.xml"
+    }
+]

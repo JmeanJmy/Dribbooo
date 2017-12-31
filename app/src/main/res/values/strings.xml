@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Dribbooo</string>
+    <string name="drawer_menu_home">Home</string>
+    <string name="drawer_menu_likes">Likes</string>
+    <string name="drawer_menu_buckets">Buckets</string>
+    <string name="open_drawer">open drawer</string>
+    <string name="close_drawer">close drawer</string>
+    <string name="shot_image">Shot image</string>
+    <string name="home_name">Dribbooo</string>
+    <string name="shot_count"><![CDATA[{0,choice,0#0 shot|1#1 shot|1&lt;{0} shots}]]></string>
+    <string name="like">Like</string>
+    <string name="bucket">Bucket</string>
+    <string name="share">Share</string>
+    <string name="shot_author_picture">shot author picture</string>
+</resources>
