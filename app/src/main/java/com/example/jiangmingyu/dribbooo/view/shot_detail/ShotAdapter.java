@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 
 import com.example.jiangmingyu.dribbooo.R;
 import com.example.jiangmingyu.dribbooo.model.Shot;
+import com.squareup.picasso.Picasso;
 
 /**
  * Created by jiangmingyu on 2017/12/30.
@@ -42,6 +43,10 @@ public class ShotAdapter extends RecyclerView.Adapter {
         switch (viewType) {
             case VIEW_TYPE_SHOT_IMAGE:
                 // do nothing, we just show the image specified in shot_item_image.xml
+                Picasso.with(holder.itemView.getContext())
+                        .load(shot.getImageUrl())
+                        .placeholder(R.drawable.shot_placeholder)
+                        .into(((ImageViewHolder) holder).image);
                 break;
             case VIEW_TYPE_SHOT_INFO:
                 InfoViewHolder shotDetailViewHolder = (InfoViewHolder) holder;

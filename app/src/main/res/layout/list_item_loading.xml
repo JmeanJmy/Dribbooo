@@ -8,6 +8,6 @@
         android:layout_width="@dimen/loading_progress_bar_size"
         android:layout_height="@dimen/loading_progress_bar_size"
         android:layout_gravity="center"
-        android:background="?android:attr/progressBarStyle"/>
+        style="?android:attr/progressBarStyle"/>
 
 </FrameLayout>
