@@ -24,6 +24,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.jiangmingyu.dribbooo.view.shot_detail.ShotActivity" />
+        <activity android:name="com.example.jiangmingyu.dribbooo.view.LoginActivity" />
     </application>
 
 </manifest>
