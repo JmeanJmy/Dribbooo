@@ -19,4 +19,5 @@
     <dimen name="drawer_header_paddingTop">120dp</dimen>
     <dimen name="drawer_header_paddingBottom">16dp</dimen>
     <dimen name="drawer_header_paddingLeft">16dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
 </resources>

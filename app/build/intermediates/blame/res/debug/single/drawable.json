@@ -20,12 +20,16 @@
         "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/c3c55e2101394bb64f7372433e1d6cdb/res/drawable/abc_btn_check_material.xml"
     },
     {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/c3c55e2101394bb64f7372433e1d6cdb/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
         "merged": "/Android/Dribbo/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
         "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/c3c55e2101394bb64f7372433e1d6cdb/res/drawable/abc_seekbar_track_material.xml"
     },
     {
-        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
-        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/c3c55e2101394bb64f7372433e1d6cdb/res/drawable/abc_btn_borderless_material.xml"
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/debug/drawable/dribbble_ball_mark.png",
+        "source": "/Android/Dribbo/app/src/main/res/drawable/dribbble_ball_mark.png"
     },
     {
         "merged": "/Android/Dribbo/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
@@ -140,12 +144,12 @@
         "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/c3c55e2101394bb64f7372433e1d6cdb/res/drawable/abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
-        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/c3c55e2101394bb64f7372433e1d6cdb/res/drawable/abc_ratingbar_indicator_material.xml"
-    },
-    {
         "merged": "/Android/Dribbo/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
         "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/c3c55e2101394bb64f7372433e1d6cdb/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/c3c55e2101394bb64f7372433e1d6cdb/res/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
         "merged": "/Android/Dribbo/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",

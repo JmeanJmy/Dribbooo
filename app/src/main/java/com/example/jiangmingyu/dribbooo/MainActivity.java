@@ -1,19 +1,26 @@
 package com.example.jiangmingyu.dribbooo;
 
+import android.content.Intent;
 import android.content.res.Configuration;
+import android.net.Uri;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.Fragment;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
-import android.support.v4.app.Fragment;
 
+import com.example.jiangmingyu.dribbooo.dribbble.Dribbble;
+import com.example.jiangmingyu.dribbooo.view.LoginActivity;
 import com.example.jiangmingyu.dribbooo.view.bucket_list.BucketListFragment;
 import com.example.jiangmingyu.dribbooo.view.shot_list.ShotListFragment;
+import com.facebook.drawee.view.SimpleDraweeView;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -65,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    private void setupDrawer() {
+    private void setupDrawer(){
         drawerToggle = new ActionBarDrawerToggle(
                 this,                  /* host Activity */
                 drawerLayout,          /* DrawerLayout object */
@@ -74,6 +81,25 @@ public class MainActivity extends AppCompatActivity {
         );
 
         drawerLayout.setDrawerListener(drawerToggle);
+
+        View headerView = navigationView.getHeaderView(0);
+
+        ((TextView) headerView.findViewById(R.id.nav_header_user_name)).setText(
+                Dribbble.getCurrentUser().name);
+
+        ((SimpleDraweeView) headerView.findViewById(R.id.nav_header_user_picture))
+                .setImageURI(Uri.parse( "https://d13yacurqjgara.cloudfront.net/users/45389/screenshots/3400936/portfolium-spaceman.png"));
+
+        headerView.findViewById(R.id.nav_header_logout).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Dribbble.logout(MainActivity.this);
+
+                Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
 
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -112,5 +138,7 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             }
         });
+
+
     }
 }
