@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
                 Dribbble.getCurrentUser().name);
 
         ((SimpleDraweeView) headerView.findViewById(R.id.nav_header_user_picture))
-                .setImageURI(Uri.parse( "https://d13yacurqjgara.cloudfront.net/users/45389/screenshots/3400936/portfolium-spaceman.png"));
+                .setImageURI(Uri.parse(Dribbble.getCurrentUser().avatar_url));
 
         headerView.findViewById(R.id.nav_header_logout).setOnClickListener(new View.OnClickListener() {
             @Override

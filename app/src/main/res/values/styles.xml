@@ -37,7 +37,7 @@
     </style>
 
     <style name="AppTheme.TextView.2.White" parent="AppTheme.TextView.2">
-        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColor">@android:color/white</item>
     </style>
     <style name="AppTheme.TextView.Clickable.1" parent="AppTheme.TextView.Clickable">
         <item name="android:textSize">15sp</item>

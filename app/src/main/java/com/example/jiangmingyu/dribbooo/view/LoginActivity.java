@@ -10,9 +10,9 @@ import android.widget.TextView;
 import com.example.jiangmingyu.dribbooo.MainActivity;
 import com.example.jiangmingyu.dribbooo.R;
 import com.example.jiangmingyu.dribbooo.dribbble.Dribbble;
-import com.example.jiangmingyu.dribbooo.dribbble.DribbbleException;
 import com.example.jiangmingyu.dribbooo.dribbble.auth.Auth;
 import com.example.jiangmingyu.dribbooo.dribbble.auth.AuthActivity;
+import com.google.gson.JsonSyntaxException;
 
 import java.io.IOException;
 
@@ -66,7 +66,7 @@ public class LoginActivity extends AppCompatActivity {
                         Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                         startActivity(intent);
                         finish();
-                    } catch (IOException | DribbbleException e) {
+                    } catch (IOException | JsonSyntaxException e) {
                         e.printStackTrace();
                     }
                 }

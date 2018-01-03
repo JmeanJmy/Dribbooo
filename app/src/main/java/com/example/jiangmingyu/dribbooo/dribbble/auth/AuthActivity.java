@@ -24,9 +24,12 @@ public class AuthActivity extends AppCompatActivity {
     public static final String KEY_URL = "url";
     public static final String KEY_CODE = "code";
 
-    @BindView(R.id.progress_bar) ProgressBar progressBar;
-    @BindView(R.id.webview) WebView webView;
-    @BindView(R.id.toolbar) Toolbar toolbar;
+    @BindView(R.id.progress_bar)
+    ProgressBar progressBar;
+    @BindView(R.id.webview)
+    WebView webView;
+    @BindView(R.id.toolbar)
+    Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,7 +70,6 @@ public class AuthActivity extends AppCompatActivity {
             }
         });
 
-        //interact with progress bar
         webView.setWebChromeClient(new WebChromeClient() {
             @Override
             public void onProgressChanged(WebView view, int newProgress) {
@@ -88,4 +90,5 @@ public class AuthActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
 }
