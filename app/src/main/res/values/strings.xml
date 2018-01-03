@@ -11,5 +11,10 @@
     <string name="like">Like</string>
     <string name="bucket">Bucket</string>
     <string name="share">Share</string>
+    <string name="auth_activity_title">Log into Dribbble</string>
     <string name="shot_author_picture">shot author picture</string>
+    <string name="activity_login_icon">login_icon</string>
+    <string name="activity_login_btn_text">Log In</string>
+    <string name="user_profile_picture">user profile picture</string>
+    <string name="logout">Log out</string>
 </resources>
