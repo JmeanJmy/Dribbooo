@@ -20,4 +20,9 @@
     <string name="logout">Log out</string>
     <string name="share_shot">Share shot</string>
     <string name="shot_detail">ShotView</string>
+    <string name="bucket_name">Bucket Name</string>
+    <string name="bucket_discription">Description</string>
+    <string name="new_bucket">New Bucket</string>
+    <string name="bucket_create">Create</string>
+    <string name="bucket_cancel">Cancel</string>
 </resources>

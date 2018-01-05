@@ -2,7 +2,8 @@ package com.example.jiangmingyu.dribbooo.view.shot_detail;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
-import android.widget.ImageView;
+
+import com.facebook.drawee.view.SimpleDraweeView;
 
 /**
  * Created by jiangmingyu on 2017/12/30.
@@ -10,9 +11,9 @@ import android.widget.ImageView;
 
 public class ImageViewHolder extends RecyclerView.ViewHolder {
 
-    ImageView image;
+    SimpleDraweeView image;
     public ImageViewHolder(View itemView) {
         super(itemView);
-        image = (ImageView) itemView;
+        image = (SimpleDraweeView) itemView;
     }
 }

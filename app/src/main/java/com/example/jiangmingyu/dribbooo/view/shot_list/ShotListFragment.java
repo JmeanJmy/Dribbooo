@@ -110,6 +110,7 @@ public class ShotListFragment extends Fragment {
                     swipeRefreshLayout.setRefreshing(false);
                 }else{
                     adapter.append(shots);
+                    swipeRefreshLayout.setEnabled(true);
                 }
 
             } else {

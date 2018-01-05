@@ -1,10 +1,11 @@
 package com.example.jiangmingyu.dribbooo.view.shot_list;
 
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.TextView;
+
 import com.example.jiangmingyu.dribbooo.R;
 import com.example.jiangmingyu.dribbooo.view.base.BaseViewHolder;
+import com.facebook.drawee.view.SimpleDraweeView;
 
 import butterknife.BindView;
 
@@ -17,7 +18,7 @@ public class ShotViewHolder extends BaseViewHolder {
     @BindView(R.id.shot_like_count) TextView likeCount;
     @BindView(R.id.shot_bucket_count) TextView bucketCount;
     @BindView(R.id.shot_view_count) TextView viewCount;
-    @BindView(R.id.shot_image) ImageView image;
+    @BindView(R.id.shot_image) SimpleDraweeView image;
 
     public ShotViewHolder(View itemView) {
         super(itemView);
