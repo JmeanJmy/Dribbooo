@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="compose"
+        android:enabled="true"
+        android:icon="@drawable/ic_inbox_black_18dp"
+        android:shortcutShortLabel="@string/shot_detail"
+        android:shortcutLongLabel="@string/shot_detail"
+        android:shortcutDisabledMessage="@string/shot_detail">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.jiangmingyu.dribbooo"
+            android:targetClass="com.example.jiangmingyu.dribbooo.view.bucket_list.BucketListFragment" />
+        <!--<intent-->
+            <!--android:action="android.intent.action.VIEW"-->
+            <!--android:targetPackage="com.example.jiangmingyu.dribbooo"-->
+            <!--android:targetClass="com.example.jiangmingyu.dribbooo.MainActivity" />-->
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <!-- Specify more shortcuts here. -->
+</shortcuts>

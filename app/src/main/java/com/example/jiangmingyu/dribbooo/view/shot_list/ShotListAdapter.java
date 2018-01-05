@@ -2,6 +2,7 @@ package com.example.jiangmingyu.dribbooo.view.shot_list;
 
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -13,8 +14,9 @@ import com.example.jiangmingyu.dribbooo.model.Shot;
 import com.example.jiangmingyu.dribbooo.utils.ModelUtils;
 import com.example.jiangmingyu.dribbooo.view.shot_detail.ShotActivity;
 import com.example.jiangmingyu.dribbooo.view.shot_detail.ShotFragment;
+import com.facebook.drawee.backends.pipeline.Fresco;
+import com.facebook.drawee.interfaces.DraweeController;
 import com.google.gson.reflect.TypeToken;
-import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
@@ -60,11 +62,11 @@ public class  ShotListAdapter extends RecyclerView.Adapter {
             shotViewHolder.bucketCount.setText(String.valueOf(shot.buckets_count));
             shotViewHolder.viewCount.setText(String.valueOf(shot.views_count));
 
-            Picasso.with(holder.itemView.getContext())
-                    .load(shot.getImageUrl())
-                    .placeholder(R.drawable.shot_placeholder)
-                    .into(shotViewHolder.image);
-            Picasso.with(holder.itemView.getContext()).setLoggingEnabled(true);
+            DraweeController controller = Fresco.newDraweeControllerBuilder()
+                    .setUri(Uri.parse(shot.getImageUrl()))
+                    .setAutoPlayAnimations(true)
+                    .build();
+            shotViewHolder.image.setController(controller);
 
             shotViewHolder.cover.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -103,6 +105,12 @@ public class  ShotListAdapter extends RecyclerView.Adapter {
 
     public void setShowLoading(boolean showLoading) {
         this.showLoading = showLoading;
+        notifyDataSetChanged();
+    }
+
+    public void setData(List<Shot> data) {
+        this.data.clear();
+        this.data.addAll(data);
         notifyDataSetChanged();
     }
 
