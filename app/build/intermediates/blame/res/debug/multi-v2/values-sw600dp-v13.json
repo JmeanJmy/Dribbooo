@@ -4,7 +4,7 @@
             "outputFile": "/Android/Dribbo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/c3c55e2101394bb64f7372433e1d6cdb/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6d7dc736657209805561594a1b077284/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/175b0ab2ba912f35a77ff02dd3b9cfea/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/5db4b34ad94daef5c1a2c35598926eb6/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +38,7 @@
             "outputFile": "/Android/Dribbo/app/build/intermediates/res/merged/debug/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/c3c55e2101394bb64f7372433e1d6cdb/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6d7dc736657209805561594a1b077284/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -48,7 +48,7 @@
                     }
                 },
                 {
-                    "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/175b0ab2ba912f35a77ff02dd3b9cfea/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/5db4b34ad94daef5c1a2c35598926eb6/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",

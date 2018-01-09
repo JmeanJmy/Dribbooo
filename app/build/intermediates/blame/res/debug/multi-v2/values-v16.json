@@ -4,7 +4,7 @@
             "outputFile": "/Android/Dribbo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/c3c55e2101394bb64f7372433e1d6cdb/res/values-v16/values-v16.xml",
+                    "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6d7dc736657209805561594a1b077284/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/849900b2f82a168f01ace3ea6505a10b/res/values-v16/values-v16.xml",
+                    "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/51006360f2798bfa77b0140b2f7d8ffb/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +38,7 @@
             "outputFile": "/Android/Dribbo/app/build/intermediates/res/merged/debug/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/c3c55e2101394bb64f7372433e1d6cdb/res/values-v16/values-v16.xml",
+                    "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6d7dc736657209805561594a1b077284/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -57,7 +57,7 @@
                     }
                 },
                 {
-                    "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/849900b2f82a168f01ace3ea6505a10b/res/values-v16/values-v16.xml",
+                    "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/51006360f2798bfa77b0140b2f7d8ffb/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

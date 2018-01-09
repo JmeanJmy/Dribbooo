@@ -101,7 +101,8 @@
             android:layout_marginRight="@dimen/spacing_medium"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
-            android:src="@drawable/user_picture_placeholder"
+            android:scaleType="centerInside"
+            tools:src="@drawable/user_picture_placeholder"
             android:contentDescription="@string/shot_author_picture"/>
 
         <TextView

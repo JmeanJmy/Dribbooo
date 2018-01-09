@@ -14,10 +14,12 @@ public class BucketListFragment$$ViewBinder<T extends BucketListFragment> implem
   public Unbinder bind(final Finder finder, final T target, Object source) {
     InnerUnbinder unbinder = createUnbinder(target);
     View view;
-    view = finder.findRequiredView(source, 2131558574, "field 'recyclerView'");
-    target.recyclerView = finder.castView(view, 2131558574, "field 'recyclerView'");
-    view = finder.findRequiredView(source, 2131558575, "field 'fab'");
-    target.fab = finder.castView(view, 2131558575, "field 'fab'");
+    view = finder.findRequiredView(source, 2131624112, "field 'recyclerView'");
+    target.recyclerView = finder.castView(view, 2131624112, "field 'recyclerView'");
+    view = finder.findRequiredView(source, 2131624113, "field 'fab'");
+    target.fab = finder.castView(view, 2131624113, "field 'fab'");
+    view = finder.findRequiredView(source, 2131624111, "field 'swipeRefreshLayout'");
+    target.swipeRefreshLayout = finder.castView(view, 2131624111, "field 'swipeRefreshLayout'");
     return unbinder;
   }
 
@@ -42,6 +44,7 @@ public class BucketListFragment$$ViewBinder<T extends BucketListFragment> implem
     protected void unbind(T target) {
       target.recyclerView = null;
       target.fab = null;
+      target.swipeRefreshLayout = null;
     }
   }
 }

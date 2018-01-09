@@ -14,8 +14,8 @@ public class SingleFragmentActivity$$ViewBinder<T extends SingleFragmentActivity
   public Unbinder bind(final Finder finder, final T target, Object source) {
     InnerUnbinder unbinder = createUnbinder(target);
     View view;
-    view = finder.findRequiredView(source, 2131558558, "field 'toolbar'");
-    target.toolbar = finder.castView(view, 2131558558, "field 'toolbar'");
+    view = finder.findRequiredView(source, 2131624093, "field 'toolbar'");
+    target.toolbar = finder.castView(view, 2131624093, "field 'toolbar'");
     return unbinder;
   }
 

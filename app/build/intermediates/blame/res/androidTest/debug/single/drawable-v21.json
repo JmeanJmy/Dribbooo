@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6d7dc736657209805561594a1b077284/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/drawable-v21/avd_hide_password.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/5db4b34ad94daef5c1a2c35598926eb6/res/drawable-v21/avd_hide_password.xml"
+    },
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6d7dc736657209805561594a1b077284/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6d7dc736657209805561594a1b077284/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/drawable-v21/design_bottom_navigation_item_background.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/5db4b34ad94daef5c1a2c35598926eb6/res/drawable-v21/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/51006360f2798bfa77b0140b2f7d8ffb/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/drawable-v21/avd_show_password.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/5db4b34ad94daef5c1a2c35598926eb6/res/drawable-v21/avd_show_password.xml"
+    },
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/drawable-v21/design_password_eye.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/5db4b34ad94daef5c1a2c35598926eb6/res/drawable-v21/design_password_eye.xml"
+    }
+]

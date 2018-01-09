@@ -14,16 +14,16 @@ public class ShotViewHolder$$ViewBinder<T extends ShotViewHolder> implements Vie
   public Unbinder bind(final Finder finder, final T target, Object source) {
     InnerUnbinder unbinder = createUnbinder(target);
     View view;
-    view = finder.findRequiredView(source, 2131558584, "field 'cover'");
+    view = finder.findRequiredView(source, 2131624123, "field 'cover'");
     target.cover = view;
-    view = finder.findRequiredView(source, 2131558582, "field 'likeCount'");
-    target.likeCount = finder.castView(view, 2131558582, "field 'likeCount'");
-    view = finder.findRequiredView(source, 2131558583, "field 'bucketCount'");
-    target.bucketCount = finder.castView(view, 2131558583, "field 'bucketCount'");
-    view = finder.findRequiredView(source, 2131558581, "field 'viewCount'");
-    target.viewCount = finder.castView(view, 2131558581, "field 'viewCount'");
-    view = finder.findRequiredView(source, 2131558580, "field 'image'");
-    target.image = finder.castView(view, 2131558580, "field 'image'");
+    view = finder.findRequiredView(source, 2131624121, "field 'likeCount'");
+    target.likeCount = finder.castView(view, 2131624121, "field 'likeCount'");
+    view = finder.findRequiredView(source, 2131624122, "field 'bucketCount'");
+    target.bucketCount = finder.castView(view, 2131624122, "field 'bucketCount'");
+    view = finder.findRequiredView(source, 2131624120, "field 'viewCount'");
+    target.viewCount = finder.castView(view, 2131624120, "field 'viewCount'");
+    view = finder.findRequiredView(source, 2131624119, "field 'image'");
+    target.image = finder.castView(view, 2131624119, "field 'image'");
     return unbinder;
   }
 

@@ -14,26 +14,26 @@ public class InfoViewHolder$$ViewBinder<T extends InfoViewHolder> implements Vie
   public Unbinder bind(final Finder finder, final T target, Object source) {
     InnerUnbinder unbinder = createUnbinder(target);
     View view;
-    view = finder.findRequiredView(source, 2131558611, "field 'title'");
-    target.title = finder.castView(view, 2131558611, "field 'title'");
-    view = finder.findRequiredView(source, 2131558613, "field 'description'");
-    target.description = finder.castView(view, 2131558613, "field 'description'");
-    view = finder.findRequiredView(source, 2131558610, "field 'authorPicture'");
-    target.authorPicture = finder.castView(view, 2131558610, "field 'authorPicture'");
-    view = finder.findRequiredView(source, 2131558612, "field 'authorName'");
-    target.authorName = finder.castView(view, 2131558612, "field 'authorName'");
-    view = finder.findRequiredView(source, 2131558582, "field 'likeCount'");
-    target.likeCount = finder.castView(view, 2131558582, "field 'likeCount'");
-    view = finder.findRequiredView(source, 2131558581, "field 'viewCount'");
-    target.viewCount = finder.castView(view, 2131558581, "field 'viewCount'");
-    view = finder.findRequiredView(source, 2131558583, "field 'bucketCount'");
-    target.bucketCount = finder.castView(view, 2131558583, "field 'bucketCount'");
-    view = finder.findRequiredView(source, 2131558607, "field 'likeButton'");
-    target.likeButton = finder.castView(view, 2131558607, "field 'likeButton'");
-    view = finder.findRequiredView(source, 2131558608, "field 'bucketButton'");
-    target.bucketButton = finder.castView(view, 2131558608, "field 'bucketButton'");
-    view = finder.findRequiredView(source, 2131558609, "field 'shareButton'");
-    target.shareButton = finder.castView(view, 2131558609, "field 'shareButton'");
+    view = finder.findRequiredView(source, 2131624150, "field 'title'");
+    target.title = finder.castView(view, 2131624150, "field 'title'");
+    view = finder.findRequiredView(source, 2131624152, "field 'description'");
+    target.description = finder.castView(view, 2131624152, "field 'description'");
+    view = finder.findRequiredView(source, 2131624149, "field 'authorPicture'");
+    target.authorPicture = finder.castView(view, 2131624149, "field 'authorPicture'");
+    view = finder.findRequiredView(source, 2131624151, "field 'authorName'");
+    target.authorName = finder.castView(view, 2131624151, "field 'authorName'");
+    view = finder.findRequiredView(source, 2131624121, "field 'likeCount'");
+    target.likeCount = finder.castView(view, 2131624121, "field 'likeCount'");
+    view = finder.findRequiredView(source, 2131624120, "field 'viewCount'");
+    target.viewCount = finder.castView(view, 2131624120, "field 'viewCount'");
+    view = finder.findRequiredView(source, 2131624122, "field 'bucketCount'");
+    target.bucketCount = finder.castView(view, 2131624122, "field 'bucketCount'");
+    view = finder.findRequiredView(source, 2131624146, "field 'likeButton'");
+    target.likeButton = finder.castView(view, 2131624146, "field 'likeButton'");
+    view = finder.findRequiredView(source, 2131624147, "field 'bucketButton'");
+    target.bucketButton = finder.castView(view, 2131624147, "field 'bucketButton'");
+    view = finder.findRequiredView(source, 2131624148, "field 'shareButton'");
+    target.shareButton = finder.castView(view, 2131624148, "field 'shareButton'");
     return unbinder;
   }
 

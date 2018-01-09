@@ -14,8 +14,8 @@ public class LoginActivity$$ViewBinder<T extends LoginActivity> implements ViewB
   public Unbinder bind(final Finder finder, final T target, Object source) {
     InnerUnbinder unbinder = createUnbinder(target);
     View view;
-    view = finder.findRequiredView(source, 2131558553, "field 'loginBtn'");
-    target.loginBtn = finder.castView(view, 2131558553, "field 'loginBtn'");
+    view = finder.findRequiredView(source, 2131624088, "field 'loginBtn'");
+    target.loginBtn = finder.castView(view, 2131624088, "field 'loginBtn'");
     return unbinder;
   }
 

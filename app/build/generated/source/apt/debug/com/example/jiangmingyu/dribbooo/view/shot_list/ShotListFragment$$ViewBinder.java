@@ -14,8 +14,10 @@ public class ShotListFragment$$ViewBinder<T extends ShotListFragment> implements
   public Unbinder bind(final Finder finder, final T target, Object source) {
     InnerUnbinder unbinder = createUnbinder(target);
     View view;
-    view = finder.findRequiredView(source, 2131558574, "field 'recyclerView'");
-    target.recyclerView = finder.castView(view, 2131558574, "field 'recyclerView'");
+    view = finder.findRequiredView(source, 2131624112, "field 'recyclerView'");
+    target.recyclerView = finder.castView(view, 2131624112, "field 'recyclerView'");
+    view = finder.findRequiredView(source, 2131624114, "field 'swipeRefreshLayout'");
+    target.swipeRefreshLayout = finder.castView(view, 2131624114, "field 'swipeRefreshLayout'");
     return unbinder;
   }
 
@@ -39,6 +41,7 @@ public class ShotListFragment$$ViewBinder<T extends ShotListFragment> implements
 
     protected void unbind(T target) {
       target.recyclerView = null;
+      target.swipeRefreshLayout = null;
     }
   }
 }

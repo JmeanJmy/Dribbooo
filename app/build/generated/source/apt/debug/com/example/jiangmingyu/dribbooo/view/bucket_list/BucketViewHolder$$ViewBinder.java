@@ -14,14 +14,14 @@ public class BucketViewHolder$$ViewBinder<T extends BucketViewHolder> implements
   public Unbinder bind(final Finder finder, final T target, Object source) {
     InnerUnbinder unbinder = createUnbinder(target);
     View view;
-    view = finder.findRequiredView(source, 2131558579, "field 'bucketLayout'");
+    view = finder.findRequiredView(source, 2131624118, "field 'bucketLayout'");
     target.bucketLayout = view;
-    view = finder.findRequiredView(source, 2131558576, "field 'bucketName'");
-    target.bucketName = finder.castView(view, 2131558576, "field 'bucketName'");
-    view = finder.findRequiredView(source, 2131558578, "field 'bucketShotCount'");
-    target.bucketShotCount = finder.castView(view, 2131558578, "field 'bucketShotCount'");
-    view = finder.findRequiredView(source, 2131558577, "field 'bucketChosen'");
-    target.bucketChosen = finder.castView(view, 2131558577, "field 'bucketChosen'");
+    view = finder.findRequiredView(source, 2131624115, "field 'bucketName'");
+    target.bucketName = finder.castView(view, 2131624115, "field 'bucketName'");
+    view = finder.findRequiredView(source, 2131624117, "field 'bucketShotCount'");
+    target.bucketShotCount = finder.castView(view, 2131624117, "field 'bucketShotCount'");
+    view = finder.findRequiredView(source, 2131624116, "field 'bucketChosen'");
+    target.bucketChosen = finder.castView(view, 2131624116, "field 'bucketChosen'");
     return unbinder;
   }
 

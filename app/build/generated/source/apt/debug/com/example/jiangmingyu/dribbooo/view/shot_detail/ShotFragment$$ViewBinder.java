@@ -14,8 +14,8 @@ public class ShotFragment$$ViewBinder<T extends ShotFragment> implements ViewBin
   public Unbinder bind(final Finder finder, final T target, Object source) {
     InnerUnbinder unbinder = createUnbinder(target);
     View view;
-    view = finder.findRequiredView(source, 2131558574, "field 'recyclerView'");
-    target.recyclerView = finder.castView(view, 2131558574, "field 'recyclerView'");
+    view = finder.findRequiredView(source, 2131624112, "field 'recyclerView'");
+    target.recyclerView = finder.castView(view, 2131624112, "field 'recyclerView'");
     return unbinder;
   }
 

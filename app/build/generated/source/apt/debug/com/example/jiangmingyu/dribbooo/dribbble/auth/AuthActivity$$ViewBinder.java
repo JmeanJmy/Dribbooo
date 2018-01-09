@@ -14,12 +14,12 @@ public class AuthActivity$$ViewBinder<T extends AuthActivity> implements ViewBin
   public Unbinder bind(final Finder finder, final T target, Object source) {
     InnerUnbinder unbinder = createUnbinder(target);
     View view;
-    view = finder.findRequiredView(source, 2131558559, "field 'progressBar'");
-    target.progressBar = finder.castView(view, 2131558559, "field 'progressBar'");
-    view = finder.findRequiredView(source, 2131558557, "field 'webView'");
-    target.webView = finder.castView(view, 2131558557, "field 'webView'");
-    view = finder.findRequiredView(source, 2131558558, "field 'toolbar'");
-    target.toolbar = finder.castView(view, 2131558558, "field 'toolbar'");
+    view = finder.findRequiredView(source, 2131624094, "field 'progressBar'");
+    target.progressBar = finder.castView(view, 2131624094, "field 'progressBar'");
+    view = finder.findRequiredView(source, 2131624092, "field 'webView'");
+    target.webView = finder.castView(view, 2131624092, "field 'webView'");
+    view = finder.findRequiredView(source, 2131624093, "field 'toolbar'");
+    target.toolbar = finder.castView(view, 2131624093, "field 'toolbar'");
     return unbinder;
   }
 

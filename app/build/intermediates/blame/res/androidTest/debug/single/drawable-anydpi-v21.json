@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/5db4b34ad94daef5c1a2c35598926eb6/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/5db4b34ad94daef5c1a2c35598926eb6/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    }
+]

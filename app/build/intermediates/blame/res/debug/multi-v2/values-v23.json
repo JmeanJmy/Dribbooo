@@ -4,7 +4,7 @@
             "outputFile": "/Android/Dribbo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/c3c55e2101394bb64f7372433e1d6cdb/res/values-v23/values-v23.xml",
+                    "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6d7dc736657209805561594a1b077284/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/6f59fa26ec80ca4e07e150c446ac6be8/res/values-v23/values-v23.xml",
+                    "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/4a06ca686ac68ed36cb2b1ad3a016fa1/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -39,7 +39,7 @@
             "outputFile": "/Android/Dribbo/app/build/intermediates/res/merged/debug/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/c3c55e2101394bb64f7372433e1d6cdb/res/values-v23/values-v23.xml",
+                    "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6d7dc736657209805561594a1b077284/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -50,7 +50,7 @@
                     }
                 },
                 {
-                    "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/6f59fa26ec80ca4e07e150c446ac6be8/res/values-v23/values-v23.xml",
+                    "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/4a06ca686ac68ed36cb2b1ad3a016fa1/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

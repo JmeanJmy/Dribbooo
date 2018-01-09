@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+<resources xmlns:ns1="http://schemas.android.com/tools">
     <attr format="reference" name="constraintSet"/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -121,8 +121,8 @@
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
     <color name="colorAccent">#333333</color>
-    <color name="colorPrimary">#333333</color>
-    <color name="colorPrimaryDark">#333333</color>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#009688</color>
     <color name="design_bottom_navigation_shadow_color">#14000000</color>
     <color name="design_fab_shadow_end_color">@android:color/transparent</color>
     <color name="design_fab_shadow_mid_color">#14000000</color>
@@ -229,8 +229,6 @@
             <enum name="multiply" value="14"/>
             
             <enum name="screen" value="15"/>
-            
-            <enum name="add" value="16"/>
         </attr></declare-styleable>
     <declare-styleable name="AppCompatSeekBar"><attr name="android:thumb"/><attr format="reference" name="tickMark"/><attr format="color" name="tickMarkTint"/><attr name="tickMarkTintMode">
             
@@ -326,8 +324,6 @@
             <enum name="multiply" value="14"/>
             
             <enum name="screen" value="15"/>
-            
-            <enum name="add" value="16"/>
         </attr></declare-styleable>
     <declare-styleable name="ConstraintLayout_Layout"><attr name="android:orientation"/><attr name="android:minWidth"/><attr name="android:minHeight"/><attr name="android:maxWidth"/><attr name="android:maxHeight"/><attr name="layout_optimizationLevel"/><attr name="constraintSet"/><attr name="layout_constraintGuide_begin"/><attr name="layout_constraintGuide_end"/><attr name="layout_constraintGuide_percent"/><attr name="layout_constraintLeft_toLeftOf"/><attr name="layout_constraintLeft_toRightOf"/><attr name="layout_constraintRight_toLeftOf"/><attr name="layout_constraintRight_toRightOf"/><attr name="layout_constraintTop_toTopOf"/><attr name="layout_constraintTop_toBottomOf"/><attr name="layout_constraintBottom_toTopOf"/><attr name="layout_constraintBottom_toBottomOf"/><attr name="layout_constraintBaseline_toBaselineOf"/><attr name="layout_constraintStart_toEndOf"/><attr name="layout_constraintStart_toStartOf"/><attr name="layout_constraintEnd_toStartOf"/><attr name="layout_constraintEnd_toEndOf"/><attr name="layout_goneMarginLeft"/><attr name="layout_goneMarginTop"/><attr name="layout_goneMarginRight"/><attr name="layout_goneMarginBottom"/><attr name="layout_goneMarginStart"/><attr name="layout_goneMarginEnd"/><attr name="layout_constraintHorizontal_bias"/><attr name="layout_constraintVertical_bias"/><attr name="layout_constraintWidth_default"/><attr name="layout_constraintHeight_default"/><attr name="layout_constraintWidth_min"/><attr name="layout_constraintWidth_max"/><attr name="layout_constraintHeight_min"/><attr name="layout_constraintHeight_max"/><attr name="layout_constraintLeft_creator"/><attr name="layout_constraintTop_creator"/><attr name="layout_constraintRight_creator"/><attr name="layout_constraintBottom_creator"/><attr name="layout_constraintBaseline_creator"/><attr name="layout_constraintDimensionRatio"/><attr name="layout_constraintHorizontal_weight"/><attr name="layout_constraintVertical_weight"/><attr name="layout_constraintHorizontal_chainStyle"/><attr name="layout_constraintVertical_chainStyle"/><attr name="layout_editor_absoluteX"/><attr name="layout_editor_absoluteY"/></declare-styleable>
     <declare-styleable name="ConstraintSet"><attr name="android:orientation"/><attr name="android:id"/><attr name="android:visibility"/><attr name="android:alpha"/><attr name="android:elevation"/><attr name="android:rotationX"/><attr name="android:rotationY"/><attr name="android:scaleX"/><attr name="android:scaleY"/><attr name="android:transformPivotX"/><attr name="android:transformPivotY"/><attr name="android:translationX"/><attr name="android:translationY"/><attr name="android:translationZ"/><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_marginStart"/><attr name="android:layout_marginBottom"/><attr name="android:layout_marginTop"/><attr name="android:layout_marginEnd"/><attr name="android:layout_marginLeft"/><attr name="android:layout_marginRight"/><attr name="layout_constraintGuide_begin"/><attr name="layout_constraintGuide_end"/><attr name="layout_constraintGuide_percent"/><attr name="layout_constraintLeft_toLeftOf"/><attr name="layout_constraintLeft_toRightOf"/><attr name="layout_constraintRight_toLeftOf"/><attr name="layout_constraintRight_toRightOf"/><attr name="layout_constraintTop_toTopOf"/><attr name="layout_constraintTop_toBottomOf"/><attr name="layout_constraintBottom_toTopOf"/><attr name="layout_constraintBottom_toBottomOf"/><attr name="layout_constraintBaseline_toBaselineOf"/><attr name="layout_constraintStart_toEndOf"/><attr name="layout_constraintStart_toStartOf"/><attr name="layout_constraintEnd_toStartOf"/><attr name="layout_constraintEnd_toEndOf"/><attr name="layout_goneMarginLeft"/><attr name="layout_goneMarginTop"/><attr name="layout_goneMarginRight"/><attr name="layout_goneMarginBottom"/><attr name="layout_goneMarginStart"/><attr name="layout_goneMarginEnd"/><attr name="layout_constraintHorizontal_bias"/><attr name="layout_constraintVertical_bias"/><attr name="layout_constraintWidth_default"/><attr name="layout_constraintHeight_default"/><attr name="layout_constraintWidth_min"/><attr name="layout_constraintWidth_max"/><attr name="layout_constraintHeight_min"/><attr name="layout_constraintHeight_max"/><attr name="layout_constraintLeft_creator"/><attr name="layout_constraintTop_creator"/><attr name="layout_constraintRight_creator"/><attr name="layout_constraintBottom_creator"/><attr name="layout_constraintBaseline_creator"/><attr name="layout_constraintDimensionRatio"/><attr name="layout_constraintHorizontal_weight"/><attr name="layout_constraintVertical_weight"/><attr name="layout_constraintHorizontal_chainStyle"/><attr name="layout_constraintVertical_chainStyle"/><attr name="layout_editor_absoluteX"/><attr name="layout_editor_absoluteY"/></declare-styleable>
@@ -417,7 +413,7 @@
     <declare-styleable name="FontFamilyFont"><attr name="fontStyle">
             <enum name="normal" value="0"/>
             <enum name="italic" value="1"/>
-        </attr><attr format="reference" name="font"/><attr format="integer" name="fontWeight"/><attr name="android:fontStyle"/><attr name="android:font"/><attr name="android:fontWeight"/></declare-styleable>
+        </attr><attr format="reference" name="font"/><attr format="integer" name="fontWeight"/></declare-styleable>
     <declare-styleable name="ForegroundLinearLayout"><attr name="android:foreground"/><attr name="android:foregroundGravity"/><attr format="boolean" name="foregroundInsidePadding"/></declare-styleable>
     <declare-styleable name="GenericDraweeHierarchy"><attr format="integer" name="fadeDuration"/><attr format="float" name="viewAspectRatio"/><attr format="reference" name="placeholderImage"/><attr name="placeholderImageScaleType"><enum name="none" value="-1"/><enum name="fitXY" value="0"/><enum name="fitStart" value="1"/><enum name="fitCenter" value="2"/><enum name="fitEnd" value="3"/><enum name="center" value="4"/><enum name="centerInside" value="5"/><enum name="centerCrop" value="6"/><enum name="focusCrop" value="7"/></attr><attr format="reference" name="retryImage"/><attr name="retryImageScaleType"><enum name="none" value="-1"/><enum name="fitXY" value="0"/><enum name="fitStart" value="1"/><enum name="fitCenter" value="2"/><enum name="fitEnd" value="3"/><enum name="center" value="4"/><enum name="centerInside" value="5"/><enum name="centerCrop" value="6"/><enum name="focusCrop" value="7"/></attr><attr format="reference" name="failureImage"/><attr name="failureImageScaleType"><enum name="none" value="-1"/><enum name="fitXY" value="0"/><enum name="fitStart" value="1"/><enum name="fitCenter" value="2"/><enum name="fitEnd" value="3"/><enum name="center" value="4"/><enum name="centerInside" value="5"/><enum name="centerCrop" value="6"/><enum name="focusCrop" value="7"/></attr><attr format="reference" name="progressBarImage"/><attr name="progressBarImageScaleType"><enum name="none" value="-1"/><enum name="fitXY" value="0"/><enum name="fitStart" value="1"/><enum name="fitCenter" value="2"/><enum name="fitEnd" value="3"/><enum name="center" value="4"/><enum name="centerInside" value="5"/><enum name="centerCrop" value="6"/><enum name="focusCrop" value="7"/></attr><attr format="integer" name="progressBarAutoRotateInterval"/><attr name="actualImageScaleType"><enum name="none" value="-1"/><enum name="fitXY" value="0"/><enum name="fitStart" value="1"/><enum name="fitCenter" value="2"/><enum name="fitEnd" value="3"/><enum name="center" value="4"/><enum name="centerInside" value="5"/><enum name="centerCrop" value="6"/><enum name="focusCrop" value="7"/></attr><attr format="reference" name="backgroundImage"/><attr format="reference" name="overlayImage"/><attr format="reference" name="pressedStateOverlayImage"/><attr format="boolean" name="roundAsCircle"/><attr format="dimension" name="roundedCornerRadius"/><attr format="boolean" name="roundTopLeft"/><attr format="boolean" name="roundTopRight"/><attr format="boolean" name="roundBottomRight"/><attr format="boolean" name="roundBottomLeft"/><attr format="color" name="roundWithOverlayColor"/><attr format="dimension" name="roundingBorderWidth"/><attr format="color" name="roundingBorderColor"/><attr format="dimension" name="roundingBorderPadding"/></declare-styleable>
     <declare-styleable name="LinearConstraintLayout"><attr name="android:orientation"/></declare-styleable>
@@ -547,8 +543,6 @@
             <enum name="multiply" value="14"/>
             
             <enum name="screen" value="15"/>
-            
-            <enum name="add" value="16"/>
         </attr></declare-styleable>
     <declare-styleable name="ViewStubCompat"><attr name="android:layout"/><attr name="android:inflatedId"/><attr name="android:id"/></declare-styleable>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
@@ -747,7 +741,6 @@
     <item name="save_non_transition_alpha" type="id"/>
     <item name="save_scale_type" type="id"/>
     <item name="split_action_bar" type="id"/>
-    <item name="tag_transition_group" type="id"/>
     <item name="text" type="id"/>
     <item name="text2" type="id"/>
     <item name="textinput_counter" type="id"/>
@@ -771,6 +764,8 @@
     <integer name="show_password_duration">200</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
     <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
     <string name="abc_action_menu_overflow_description">More options</string>
     <string name="abc_action_mode_done">Done</string>
@@ -797,7 +792,7 @@
     <string name="abc_searchview_description_submit">Submit query</string>
     <string name="abc_searchview_description_voice">Voice search</string>
     <string name="abc_shareactionprovider_share_with">Share with</string>
-    <string name="abc_shareactionprovider_share_with_application">Share with <ns1:g example="Mail" id="application_name">%s</ns1:g></string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="activity_login_btn_text">Log In</string>
     <string name="activity_login_icon">login_icon</string>
@@ -806,6 +801,10 @@
     <string name="auth_activity_title">Log into Dribbble</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="bucket">Bucket</string>
+    <string name="bucket_cancel">Cancel</string>
+    <string name="bucket_create">Create</string>
+    <string name="bucket_discription">Description</string>
+    <string name="bucket_name">Bucket Name</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="close_drawer">close drawer</string>
     <string name="drawer_menu_buckets">Buckets</string>
@@ -814,6 +813,7 @@
     <string name="home_name">Dribbooo</string>
     <string name="like">Like</string>
     <string name="logout">Log out</string>
+    <string name="new_bucket">New Bucket</string>
     <string name="open_drawer">open drawer</string>
     <string name="password_toggle_content_description">Toggle password visibility</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
@@ -822,8 +822,10 @@
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="search_menu_title">Search</string>
     <string name="share">Share</string>
+    <string name="share_shot">Share shot</string>
     <string name="shot_author_picture">shot author picture</string>
     <string name="shot_count"><![CDATA[{0,choice,0#0 shot|1#1 shot|1&lt;{0} shots}]]></string>
+    <string name="shot_detail">ShotView</string>
     <string name="shot_image">Shot image</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="user_profile_picture">user profile picture</string>
@@ -841,7 +843,9 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
 
-        <item name="android:windowTranslucentStatus">true</item>
+        
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+
         <item name="alertDialogTheme">@style/AppTheme.Dialog.Alert</item>
     </style>
     <style name="AppTheme.Dialog.Alert" parent="Theme.AppCompat.Light.Dialog.Alert">
@@ -853,7 +857,7 @@
         <item name="android:textSize">17sp</item>
     </style>
     <style name="AppTheme.TextView.2.White" parent="AppTheme.TextView.2">
-        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColor">@android:color/white</item>
     </style>
     <style name="AppTheme.TextView.Clickable">
         <item name="android:background">?attr/selectableItemBackground</item>
@@ -2105,6 +2109,22 @@
     <style name="TextAppearance.AppCompat.Medium" parent="Base.TextAppearance.AppCompat.Medium"/>
     <style name="TextAppearance.AppCompat.Medium.Inverse" parent="Base.TextAppearance.AppCompat.Medium.Inverse"/>
     <style name="TextAppearance.AppCompat.Menu" parent="Base.TextAppearance.AppCompat.Menu"/>
+    <style name="TextAppearance.AppCompat.Notification" parent="@android:style/TextAppearance.StatusBar.EventContent"/>
+    <style name="TextAppearance.AppCompat.Notification.Info">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Notification.Info.Media"/>
+    <style name="TextAppearance.AppCompat.Notification.Line2" parent="TextAppearance.AppCompat.Notification.Info"/>
+    <style name="TextAppearance.AppCompat.Notification.Line2.Media" parent="TextAppearance.AppCompat.Notification.Info.Media"/>
+    <style name="TextAppearance.AppCompat.Notification.Media"/>
+    <style name="TextAppearance.AppCompat.Notification.Time">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Notification.Time.Media"/>
+    <style name="TextAppearance.AppCompat.Notification.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/>
+    <style name="TextAppearance.AppCompat.Notification.Title.Media"/>
     <style name="TextAppearance.AppCompat.SearchResult.Subtitle" parent="Base.TextAppearance.AppCompat.SearchResult.Subtitle">
     </style>
     <style name="TextAppearance.AppCompat.SearchResult.Title" parent="Base.TextAppearance.AppCompat.SearchResult.Title">
@@ -2349,7 +2369,7 @@
     </style>
     <style name="Widget.Design.BottomSheet.Modal" parent="android:Widget">
         <item name="android:background">?android:attr/colorBackground</item>
-        <item name="android:elevation" ns2:ignore="NewApi">@dimen/design_bottom_sheet_modal_elevation</item>
+        <item name="android:elevation" ns1:ignore="NewApi">@dimen/design_bottom_sheet_modal_elevation</item>
         <item name="behavior_peekHeight">auto</item>
         <item name="behavior_hideable">true</item>
         <item name="behavior_skipCollapsed">false</item>

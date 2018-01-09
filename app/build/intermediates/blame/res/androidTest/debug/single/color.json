@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6d7dc736657209805561594a1b077284/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/color/switch_thumb_material_dark.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6d7dc736657209805561594a1b077284/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6d7dc736657209805561594a1b077284/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/color/abc_primary_text_material_light.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6d7dc736657209805561594a1b077284/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/color/abc_search_url_text.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6d7dc736657209805561594a1b077284/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/color/design_error.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/5db4b34ad94daef5c1a2c35598926eb6/res/color/design_error.xml"
+    },
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/color/abc_hint_foreground_material_light.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6d7dc736657209805561594a1b077284/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6d7dc736657209805561594a1b077284/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/color/switch_thumb_material_light.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6d7dc736657209805561594a1b077284/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6d7dc736657209805561594a1b077284/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6d7dc736657209805561594a1b077284/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/androidTest/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/Users/jiangmingyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6d7dc736657209805561594a1b077284/res/color/abc_hint_foreground_material_dark.xml"
+    }
+]
