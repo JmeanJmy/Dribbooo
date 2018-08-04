@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
-import android.support.v4.os.AsyncTaskCompat;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -39,6 +38,7 @@ public class ShotListFragment extends Fragment {
 
     private ShotListAdapter adapter;
 
+
     public static ShotListFragment newInstance() {
         return new ShotListFragment();
     }
@@ -62,7 +62,8 @@ public class ShotListFragment extends Fragment {
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-                AsyncTaskCompat.executeParallel(new LoadShotTask(true));
+                //AsyncTaskCompat.executeParallel(new LoadShotTask(true));
+                new LoadShotTask(true).execute();
             }
         });
 
@@ -71,7 +72,8 @@ public class ShotListFragment extends Fragment {
             public void onLoadMore() {
                 // this method will be called when the RecyclerView is displayed
                 // page starts from 1
-                AsyncTaskCompat.executeParallel(new LoadShotTask(adapter.getDataCount() / COUNT_PER_PAGE + 1));
+                new LoadShotTask(adapter.getDataCount() / COUNT_PER_PAGE + 1).execute();
+
             }
         });
         recyclerView.setAdapter(adapter);
@@ -109,6 +111,9 @@ public class ShotListFragment extends Fragment {
                     adapter.setData(shots);
                     swipeRefreshLayout.setRefreshing(false);
                 }else{
+                    if (shots.size() < COUNT_PER_PAGE) {
+                        adapter.setShowLoading(false);
+                    }
                     adapter.append(shots);
                     swipeRefreshLayout.setEnabled(true);
                 }

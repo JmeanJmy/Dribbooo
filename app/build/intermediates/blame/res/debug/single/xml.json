@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Android/Dribbo/app/build/intermediates/res/merged/debug/xml/themes.xml",
+        "source": "/Android/Dribbo/app/src/main/res/xml/themes.xml"
+    },
+    {
         "merged": "/Android/Dribbo/app/build/intermediates/res/merged/debug/xml/shortcuts.xml",
         "source": "/Android/Dribbo/app/src/main/res/xml/shortcuts.xml"
     }
